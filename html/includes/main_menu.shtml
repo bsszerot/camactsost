@@ -1,0 +1,25 @@
+
+<TABLE BORDER="1" STYLE="width: 100%; border-width: solid; border-color: navy;">
+<TR><TD STYLE="padding: 10pt; text-align: right; font-family: sans-serif; color: white; font-size: 14pt; font-weight: bold; background-color: navy;">
+        <SPAN STYLE="color: red;">КАМА</SPAN>кт<SPAN STYLE="color: red;">С</SPAN>о<SPAN STYLE="color: red;">С</SPAN>т&nbsp;БеССт</TD></TR>
+</TABLE>
+
+<!--<P STYLE="font-size: 18pt; color: white; text-align: right; background: navy; padding: 5pt;"><SPAN STYLE=\"color: red;\">К</SPAN>р<SPAN STYLE=\"color: red;\">А</SPAN>гр<SPAN STYLE=\"color: red;\">А</SPAN>н БеССт</P>-->
+
+<P STYLE="text-align: right;">ОБЩЕЕ</P>
+<P>
+<A HREF="index.shtml" TITLE="общие сведения о программно - технологическом комплексе 'Крипто Аргегатор Анализатор Белонина Сергея Станиславовича'">About&nbsp;ПТК&nbsp;КАМАктСоСТ</A>
+<BR><A CLASS="menuhref" href="articles/persons.shtml">Персоналии</A>
+<BR><A CLASS="menuhref" href="articles/links_resources.shtml">Ссылки&nbsp;Ресурсы</A>
+</P>
+
+<P STYLE="text-align: right;">ИНСТРУМЕНТАРИЙ</P>
+<P> <A CLASS="menuhref" TITLE="" HREF="cgi/tools_pg_monitor_config.cgi">TOOLS&nbsp;Конфигурация&nbsp;Роли</A>
+<BR><A CLASS="menuhref" TITLE="" HREF="cgi/tools_pg_monitor_objects.cgi">TOOLS&nbsp;Объекты&nbsp;БД</A>
+<BR><A CLASS="menuhref" TITLE="" HREF="cgi/tools_pg_monitor_TA_list.cgi?tab_detail=1">TOOLS&nbsp;Монитор&nbsp;активности</A>
+<BR><A CLASS="menuhref" TITLE="" HREF="cgi/tools_pg_monitor_stat_subsys.cgi">TOOLS&nbsp;Статистики&nbsp;подсистем</A>
+<BR><A CLASS="menuhref" TITLE="" HREF="">TOOLS&nbsp;Данные&nbsp;расширений</A>
+<BR><A CLASS="menuhref" TITLE="" HREF="">TOOLS&nbsp;Аналитика&nbsp;отчёты</A>
+</P>
+
+<!--(C) Belonin S.S., 2025-->

@@ -1,0 +1,48 @@
+
+# --------------------------------------------------------
+# --- технологические каталоги ---
+# --------------------------------------------------------
+# базовый каталог продукта
+$camactsost_dir_base = "/home/cragr/camactsost" ;
+
+# каталог библиотек продукта
+$camactsost_dir_lib = "$camactsost_dir_base/lib" ;
+
+# каталог продукта временный
+$camactsost_dir_tmp = "$cragran_dir_base/tmp" ;
+
+# каталог журналирования
+$camactsost_dir_log = "$cragran_dir_base/log" ;
+
+# основной файл журнала
+$camactsost_main_log_file = "$camactsost_dir_log/camactsost_main.log" ;
+
+# --------------------------------------------------------
+# --- параметры CGI модулей ---
+# --------------------------------------------------------
+# нужно в формировании функций JS
+$COMM_PAR_DOMAIN_HREF = "https://zrt.ourorbits.ru" ;
+$COMM_PAR_BASE_HREF = "https://zrt.ourorbits.ru/camactsost" ;
+$COMM_PAR_BASE_WEB_PATH = "/var/www/camactsost" ;
+$COMM_PAR_PGSQL_HOST = "127.0.0.1" ;
+$COMM_PAR_PGSQL_DB_NAME = "crypta" ;
+$COMM_PAR_PGSQL_DB_PASSWORD = "cryptapwd" ;
+
+$pg_mon_short_record_limit = 20 ;
+$pg_mon_long_record_limit = 100000 ;
+
+# для Postgree SQL соединение подразумевает права просмотра кластерной статистики и представлений
+#my $dbh_objects = DBI->connect("dbi:Pg:dbname=$COMM_PAR_PGSQL_DB_NAME;host=$COMM_PAR_PGSQL_HOST", $COMM_PAR_PGSQL_DB_NAME, $COMM_PAR_PGSQL_DB_PASSWORD ) ;
+
+$default_connector = "A01_1_1_crypta1" ;
+
+$conn_def{A01_0_x} = "" ; $conn_cred_name{A01_0_x} = "" ; $conn_cred_passwd{A01_0_x} = "" ; $conn_desc{A01_0_x} = "============ продуктивы - разные ============" ;
+$conn_def{A01_1_1_crypta1} = "dbi:Pg:dbname=crypta;host=127.0.0.1" ; $conn_cred_name{A01_1_1_crypta1} = "crypta" ; $conn_cred_passwd{A01_1_1_crypta1} = "cryptapwd" ; $conn_desc{A01_1_1_crypta1} = "crypta_1_1_db" ;
+$conn_def{A01_1_2_crypta2} = "dbi:Pg:dbname=crypta;host=127.0.0.1" ; $conn_cred_name{A01_1_2_crypta2} = "crypta" ; $conn_cred_passwd{A01_1_2_crypta2} = "cryptapwd" ; $conn_desc{A01_1_2_crypta2} = "crypta_1_2_db" ;
+
+$conn_def{A01_1_x} = "" ; $conn_cred_name{A01_1_x} = "" ; $conn_cred_passwd{A01_1_x} = "" ; $conn_desc{A01_1_x} = "============ продуктивы - разные - 2 ============" ;
+$conn_def{A01_2_1_crypta3} = "dbi:Pg:dbname=crypta;host=127.0.0.1" ; $conn_cred_name{A01_2_1_crypta3} = "crypta" ; $conn_cred_passwd{A01_2_1_crypta3} = "cryptapwd" ; $conn_desc{A01_2_1_crypta3} = "crypta_2_1_db" ;
+$conn_def{A01_2_2_crypta4} = "dbi:Pg:dbname=crypta;host=127.0.0.1" ; $conn_cred_name{A01_2_2_crypta4} = "crypta" ; $conn_cred_passwd{A01_2_2_crypta4} = "cryptapwd" ; $conn_desc{A01_2_2_crypta4} = "crypta_2_2_db" ;
+$conn_def{A01_2_3_crypta5} = "dbi:Pg:dbname=crypta;host=127.0.0.1" ; $conn_cred_name{A01_2_3_crypta5} = "crypta" ; $conn_cred_passwd{A01_2_3_crypta5} = "cryptapwd" ; $conn_desc{A01_2_3_crypta5} = "crypta_2_3_db" ;
+
+1

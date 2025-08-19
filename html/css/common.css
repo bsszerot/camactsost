@@ -1,0 +1,156 @@
+<!--BODY { b--ackground: lightgray; b--ackground-color: lightgray; b--ackground-image: lightgray; font-size: 10pt; font-family: sans-serif; text-align: justify; }-->
+BODY { font-size: 10pt; font-family: sans-serif; text-align: justify; }
+
+P { font-size: 10pt; font-family: sans-serif; text-align: justify; }
+P.refren_01 { font-size: 8pt; font-family: sans-serif; text-align: justify; color: gray; }
+LI { font-size: 10pt; font-family: sans-serif; }
+SPAN.firstly { font-size: 10pt; font-family: sans-serif; text-align: justify; color: green; }
+SPAN.shpargalka_group { color: green; }
+
+TD { font-size: 10pt; font-family: sans-serif; text-align: justify; }
+TD.content_spargalka { width: 30%; }
+TD.td_head { font-size: 10pt; font-family: sans-serif; text-align: center; font-weight: bold; vertical-align: middle; color: navy; }
+TD.td_left { font-size: 10pt; font-family: sans-serif; text-align: left; }
+TD.td_right { font-size: 10pt; font-family: sans-serif; text-align: right; }
+TD.td_center { font-size: 10pt; font-family: sans-serif; text-align: center; }
+TD.td_justify { font-size: 10pt; font-family: sans-serif; text-align: justify; }
+<!-- TD { font-family: sans-serif; font-size: 10pt; white-space: now-rap; } -->
+TD { font-family: sans-serif; font-size: 10pt; }
+TD.head { font-family: sans-serif; font-size: 10pt; text-align: center; }
+TD.coinlines { background-color: navy; color: white; }
+TD.now-rap { font-family: sans-serif; font-size: 10pt; white-space: now-rap; }
+
+BR { font-size: 6pt; }
+
+H1 { font-size: 14pt; font-family: sans-serif; color: navy; text-align: center; font-weight: normal; }
+H2 { font-size: 12pt; font-family: sans-serif; color: navy; text-align: right; font-weight: normal; }
+H2.content_spargalka { border-top-style: dotted; border-color: gray; }
+H3 { font-size: 12pt; font-family: sans-serif; color: navy; text-align: left; font-weight: normal; }
+
+A:link { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A:active { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A:visited { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A:hover { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+
+A.menuhref:link { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.menuhref:active { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.menuhref:visited { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.menuhref:hover { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+
+A.small_size:link { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+A.small_size:active { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+A.small_size:visited { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+A.small_size:hover { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+
+A.event_coin:link { color: green; text-decoration: none; font-weight: normal; font-size: 12pt; font-family: sans-serif; }
+A.event_coin:active { color: green; text-decoration: none; font-weight: normal; font-size: 12pt; font-family: sans-serif; }
+A.event_coin:visited { color: green; text-decoration: none; font-weight: normal; font-size: 12pt; font-family: sans-serif; }
+A.event_coin:hover { color: green; text-decoration: none; font-weight: normal; font-size: 12pt; font-family: sans-serif; }
+
+link { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+active { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+visited { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+hover { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+
+IMG.littlegraph { width: 139pt; height: 127pt; }
+IMG.middlegraph { width: 701pt; height: 320pt; }
+IMG.premiddlegraph { width: 701pt; height: 110pt; }
+
+IMG.pre_ohlc_ema_graph { width: 340pt; height: 180pt; }
+IMG.one_coin_ohlc_ema_graph { width: 739pt; height: 420pt; }
+IMG.ohlc_ema_graph { width: 701pt; height: 320pt; }
+
+IMG.pre_macd_graph { width: 340pt; height: 70pt; }
+IMG.one_coin_macd_graph { width: 739pt; height: 110pt; }
+IMG.macd_graph { width: 701pt; height: 110pt; }
+
+IMG.pre_rsi_graph { width: 340pt; height: 70pt; }
+IMG.one_coin_rsi_graph { width: 739pt; height: 110pt; }
+IMG.rsi_graph { width: 701pt; height: 110pt; }
+
+IMG.pre_vlt_graph { width: 340pt; height: 70pt; }
+IMG.one_coin_vlt_graph { width: 739pt; height: 110pt; }
+IMG.vlt_graph { width: 701pt; height: 110pt; }
+
+IMG.pre_capit_graph { width: 340pt; height: 70pt; }
+
+IMG.pre_volume_graph { width: 739pt; height: 110pt; }
+IMG.pre_volatility_graph { width: 739pt; height: 80pt; }
+
+TITLE { color: navy; font-size:9pt; background: yellow; }
+
+TD.contract_norm { font-size: 8pt; vertical-align: middle; text-align: justify; }
+TD.contract_ind { font-size: 7pt; vertical-align: middle; text-align: justify; }
+TD.contract_ind_top { font-size: 7pt; vertical-align: top; text-align: justify; }
+TD.contract_top { font-size: 8pt; vertical-align: top; text-align: justify; }
+TD.contract_norm_top { font-size: 8pt; vertical-align: top; text-align: justify; }
+TD.contract_norm_purple { font-size: 8pt; vertical-align: middle; text-align: justify; color: purple; }
+TD.contract_big { font-size: 12pt; vertical-align: middle; color: navy ; }
+TD.contract_delim { font-size: 8pt; vertical-align: middle; text-align: justify; border: 1pt solid; color: navy; }
+
+INPUT.contract_norm { font-size: 8pt; width: 87pt; text-align: right; }
+INPUT.contract_norm_purple { font-size: 8pt; width: 87pt; color: purple; text-align: right; }
+INPUT.contract_norm_purple_volume { font-size: 8pt; width: 87pt; color: purple; text-align: right; }
+INPUT.contract_norm_id { font-size: 8pt; width: 29pt; text-align: right; }
+INPUT.contract_norm_prct { font-size: 8pt; width: 19pt; text-align: right; }
+INPUT.contract_norm_value { font-size: 8pt; width: 57pt; text-align: right; }
+INPUT.contract_norm_volume { font-size: 8pt; width: 87pt; text-align: right; }
+INPUT.contract_norm_rr { font-size: 8pt; width: 31pt; text-align: right; }
+INPUT.contract_norm_lever { font-size: 8pt; width: 81pt; text-align: right; }
+INPUT.contract_norm_date { font-size: 8pt; width: 99pt; }
+INPUT.contract_norm_date_purple { font-size: 8pt; width: 99pt; color: purple; }
+INPUT.contract_big { font-size: 12pt; }
+TEXTAREA.contract_norm_textarea { width: 100%; height: 170pt; white-space: pre-line; }
+TEXTAREA.contract_norm_textarea_tmp { width: 100%; height: 170pt; white-space: pre-line; }
+
+SELECT.contract_norm { font-size: 8pt; width: 120pt; }
+SELECT.contract_norm_status { font-size: 8pt; width: 249pt; }
+SELECT.contract_in_out_base { font-size: 8pt; width: 425pt; }
+SELECT.contract_ind_tf { font-size: 7pt; width: 39pt; }
+SELECT.contract_ind_value { font-size: 7pt; width: 205pt; }
+SELECT.contract_big_cycle { font-size: 12pt; color: navy ; width: 142pt; }
+SELECT.contract_big_coin { font-size: 12pt; color: navy ; width: 132pt; }
+SELECT.contract_big_ref_coin { font-size: 12pt; color: navy ; width: 131pt; }
+SELECT.contract_big_type { font-size: 12pt; color: navy ; width: 128pt; }
+SELECT.contract_norm_user_name { font-size: 8pt; width: 81pt; text-align: left; }
+
+HR.contract_delim { color: navy; border: 1pt solid; border-width: 1pt; height: 1pt; }
+IMG.cnt_pre_result_graph { width: 100%; height: 109pt; }
+SPAN.contract_action { cursor: pointer; font-size: 10pt; color: navy ; }
+
+TD.td_query_stats_head { font-size: 8pt; font-family: sans-serif; text-align: center; font-weight: bold; vertical-align: middle; color: navy; }
+TD.td_query_stats_left { font-size: 8pt; font-family: sans-serif; text-align: left; }
+TD.td_query_stats_right { font-size: 8pt; font-family: sans-serif; text-align: right; }
+TD.td_query_stats_center { font-size: 8pt; font-family: sans-serif; text-align: center; }
+TD.td_query_stats_justify { font-size: 8pt; font-family: sans-serif; text-align: justify; }
+A.query_stats:link { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+A.query_stats:active { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+A.query_stats:visited { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+A.query_stats:hover { color: navy; text-decoration: none; font-weight: normal; font-size: 8pt; font-family: sans-serif; }
+
+TD.td_plans_head { font-size: 10pt; font-family: sans-serif; text-align: center; font-weight: bold; vertical-align: middle; color: navy; }
+TD.td_plans_stats_left { font-size: 10pt; font-family: sans-serif; text-align: left; }
+TD.td_plans_stats_right { font-size: 10pt; font-family: sans-serif; text-align: right; }
+TD.td_plans_stats_center { font-size: 10pt; font-family: sans-serif; text-align: center; }
+TD.td_plans_stats_justify { font-size: 10pt; font-family: sans-serif; text-align: justify; }
+A.plans:link { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.plans:active { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.plans:visited { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.plans:hover { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+
+TD.td_waits_head { font-size: 10pt; font-family: sans-serif; text-align: center; font-weight: bold; vertical-align: middle; color: navy; }
+TD.td_waits_left { font-size: 10pt; font-family: sans-serif; text-align: left; }
+TD.td_waits_right { font-size: 10pt; font-family: sans-serif; text-align: right; }
+TD.td_waits_center { font-size: 10pt; font-family: sans-serif; text-align: center; }
+TD.td_waits_justify { font-size: 10pt; font-family: sans-serif; text-align: justify; }
+A.waits:link { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.waits:active { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.waits:visited { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+A.waits:hover { color: navy; text-decoration: none; font-weight: normal; font-size: 10pt; font-family: sans-serif; }
+
+TD.rtrsp_strat_detais_head { font-size: 9pt; font-family: sans-serif; text-align: center; font-weight: bold; vertical-align: middle; color: navy; }
+TD.rtrsp_strat_detais_left { font-size: 9pt; font-family: sans-serif; text-align: left; }
+TD.rtrsp_strat_detais_right { font-size: 9pt; font-family: sans-serif; text-align: right; }
+TD.rtrsp_strat_detais_center { font-size: 9pt; font-family: sans-serif; text-align: center; }
+TD.rtrsp_strat_detais_justify { font-size: 9pt; font-family: sans-serif; text-align: justify; }
+

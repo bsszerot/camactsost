@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Login please"
+AuthUserFile "/etc/httpd/.htpasswd"
+Require valid-user
