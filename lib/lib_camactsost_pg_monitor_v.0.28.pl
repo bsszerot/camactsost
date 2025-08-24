@@ -869,8 +869,8 @@ if ( $pv{curr_conn} eq "" ) { $pv{curr_conn} = $default_connector ; }
                    onclick=\"renew_db_status_page(id_period_date_start.value,id_period_date_stop.value,id_query_id.value,id_plan_hash.value,id_pid.value,id_serial.value,id_sess_state_filter.value,id_db_filter.value,id_is_user_backends.checked,id_is_backgrounds.checked,id_is_extensions.checked,'$pv{tab_detail}',id_curr_conn.value,id_refresh_time.value,'$pv{sort_field}','&x=x')\">&nbsp;&nbsp;обновить</SPAN>
         </TD></TR>
     <TR><TD COLSPAN=\"3\">
-    <A TARGET=\"_blank\" HREF=\"$base_url/cgi/_graph_pg_SAH_top_activity.cgi?$common_pg_mon_cgi_prefix&width=1450&height=500\">
-           <IMG style=\"width:100%; height: 240pt;\" SRC=\"$base_url/cgi/_graph_pg_SAH_top_activity.cgi?$common_pg_mon_cgi_prefix&width=2800&height=600\"></A>
+    <A TARGET=\"_blank\" HREF=\"$COMM_PAR_BASE_HREF/cgi/_graph_pg_SAH_top_activity.cgi?$common_pg_mon_cgi_prefix&width=1450&height=500\">
+           <IMG style=\"width:100%; height: 240pt;\" SRC=\"$COMM_PAR_BASE_HREF/cgi/_graph_pg_SAH_top_activity.cgi?$common_pg_mon_cgi_prefix&width=2800&height=600\"></A>
     </TD></TR>
     </TABLE>" ;
 
@@ -1512,7 +1512,7 @@ sub print_header_1_2_cgi() {
 #    my $common_pg_mon_cgi_prefix = "" ;
 $common_pg_mon_cgi_prefix = "" ; set_common_pg_mon_cgi_prefix() ;
 #    if ( $pv{refresh_time} ne "" ) { print "\n<meta http-equiv=\"refresh\" content=\"$pv{refresh_time};url=$base_url/cgi/$script_name?$common_pg_mon_cgi_prefix&tab_detail=$pv{tab_detail}\">" ; }
-    if ( $pv{refresh_time} ne "" ) { print "\n<meta http-equiv=\"refresh\" content=\"$pv{refresh_time};url=$base_url/cgi/$script_name?$common_pg_mon_cgi_prefix&tab_detail=$pv{tab_detail}\">" ; }
+    if ( $pv{refresh_time} ne "" ) { print "\n<meta http-equiv=\"refresh\" content=\"$pv{refresh_time};url=$COMM_PAR_BASE_HREF/cgi/$script_name?$common_pg_mon_cgi_prefix&tab_detail=$pv{tab_detail}\">" ; }
     print "</HEAD>
 
 <BODY>

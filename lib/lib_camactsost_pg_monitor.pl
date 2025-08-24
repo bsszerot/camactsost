@@ -1,1 +1,1 @@
-lib_camactsost_pg_monitor_v.0.27.pl
+lib_camactsost_pg_monitor_v.0.28.pl
